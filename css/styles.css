@@ -156,6 +156,9 @@ body {
   padding: 200px 0;
   text-align: center;
 }
+.bg-im {
+  max-width: 1600px;
+}
 .hero-title {
   font-weight: 900;
   font-size: 44px;
