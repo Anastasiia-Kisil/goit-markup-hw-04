@@ -11,6 +11,7 @@
   --container-pr: 15px;
   --link-pt: 32px;
   --link-pb: 32px;
+  --bg-item-color: #f5f4fa;
 }
 h1,
 h2,
@@ -208,7 +209,7 @@ body {
   justify-content: center;
   width: 270px;
   height: 120px;
-  background-color: #f5f4fa;
+  background-color: var(--bg-item-color);
   margin-bottom: 30px;
 }
 .principle-list {
@@ -262,7 +263,7 @@ body {
 }
 /* TEAM */
 .our-team {
-  background-color: #f5f4fa;
+  background-color: var(--bg-item-color);
 }
 .team-list {
   display: flex;
