@@ -100,6 +100,8 @@ body {
   letter-spacing: 0.03em;
   color: var(--accent-color);
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .logo-text {
   font-weight: 700;
@@ -195,6 +197,7 @@ body {
   padding: 10px 32px;
   border-radius: 4px;
   margin-top: 30px;
+  border: none;
 }
 .modal-btn:hover,
 .modal-btn:focus {
@@ -349,7 +352,7 @@ body {
   fill: #afb1b8;
 }
 .client-link:hover .client-icon,
-.client-link:focus .contact-icon {
+.client-link:focus .client-icon {
   fill: var(--accent-color);
 }
 .clients-list-item:hover,
@@ -436,7 +439,7 @@ body {
 
 .porfolio-btn-list {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   margin-bottom: 34px;
   justify-content: center;
 }
@@ -454,8 +457,8 @@ body {
   background-color: #f5f4fa;
   border: none;
 }
-.portfolio-items:not(:last-child) {
-  margin-right: 30px;
+.portfolio-items {
+  margin-right: 8px;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
